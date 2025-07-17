@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XT90PB-F
+D Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT
+K
+F https://www.china-amass.com/biao/439.html
+$ENDCMP
+#
+#End Doc Library

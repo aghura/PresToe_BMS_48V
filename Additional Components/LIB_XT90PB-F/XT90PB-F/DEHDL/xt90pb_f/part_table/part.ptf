@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XT90PB_F'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amass", "XT90PB-F" (!) = "", "XT90PBF", "Other", "", "", "", "", "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT", "https://www.china-amass.com/biao/439.html", "19.7 mm"
+END_PART
+
+END.

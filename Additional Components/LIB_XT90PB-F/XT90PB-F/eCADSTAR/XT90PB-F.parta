@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_15717285"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-15-09:08:49)
+    (utime 2025-01-15-09:08:49)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "XT90PB-F")
+)
+
+
+(pinAssign "ECS_15717285"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-15-09:08:49)
+    (utime 2025-01-15-09:08:49)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15717285")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "XT90PB-F")
+)
+
+
+(part "XT90PB-F"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-15-09:08:49)
+    (utime 2025-01-15-09:08:49)
+    (packageRef "XT90PB-F")
+    (pinAssignRef "ECS_15717285")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT")
+    (property "Manufacturer_Name" "Amass")
+    (property "Manufacturer_Part_Number" "XT90PB-F")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.china-amass.com/biao/439.html")
+    (property "compAreaTopHeight" 19.7)
+)
+
+

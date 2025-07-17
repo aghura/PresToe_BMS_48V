@@ -1,0 +1,161 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XT90PB-F"
+   (description "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT")
+   (family "CON")
+   (package "XT90PBF")
+   (attribute "Datasheet Link" "https://www.china-amass.com/biao/439.html")
+   (attribute "Geometry.Height" "19.7mm")
+   (attribute "Manufacturer_Name" "Amass")
+   (attribute "Manufacturer_Part_Number" "XT90PB-F")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "XT90PB-F")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "XT90PB-F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XT90PBF"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -17.15 6.45)
+      (pt 6.15 6.45)
+      (pt 6.15 -6.45)
+      (pt -17.15 -6.45)
+      (pt -17.15 6.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.5 -5)
+      (pt 2.5 -5)
+      (pt 5.15 -2.35)
+      (pt 5.15 2.35)
+      (pt 2.5 5)
+      (pt -16.15 5)
+      (pt -16.15 -5)
+      (pt -5.5 -5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -13.5 5)
+      (pt -13.5 5.45)
+      (pt -0.5 5.45)
+      (pt -0.5 5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -13.5 -5)
+      (pt -13.5 -5.45)
+      (pt -0.5 -5.45)
+      (pt -0.5 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.7 0)
+      (arc (pt 5.700 0.000) (pt 5.600 -0.050) (pt 5.700 0.050) (start 180.0) (sweep .0))
+      (pt 5.6 0)
+      (arc (pt 5.600 0.000) (pt 5.600 -0.050) (pt 5.700 0.050) (start 180.0) (sweep -180.0))
+      (pt 5.7 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.15 2.35)
+      (pt 5.15 -2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.5 -5)
+      (pt -16.15 -5)
+      (pt -16.15 5)
+      (pt 2.5 5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.5 5)
+      (pt -0.5 5.45)
+      (pt -13.5 5.45)
+      (pt -13.5 5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -13.5 -5)
+      (pt -13.5 -5.45)
+      (pt -0.5 -5.45)
+      (pt -0.5 -5))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -11.000 0.000) (padstack 2))
+   (padstack 0
+    (hole 6.1)
+    (plated true)
+    (pad (layer TCOP) (square 9.150))
+    (pad (layer INNER) (round 9.150))
+    (pad (layer BCOP) (square 9.150))
+   )
+   (padstack 2
+    (hole 6.1)
+    (plated true)
+    (pad (layer TCOP) (round 9.150))
+    (pad (layer INNER) (round 9.150))
+    (pad (layer BCOP) (round 9.150))
+   )
+   (model "XT90PB-F.stp"
+    (euler 90 0 0)
+    (offset -26 -4.949999809265137 -0.1599999964237213)
+   )
+  )
+ )
+)

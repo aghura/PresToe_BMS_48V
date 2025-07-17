@@ -1,0 +1,9 @@
+Manufacturer=Amass
+PartNumber=XT90PB-F
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2025-01-15 09:08:49
+Downloaded=2025-07-15 06:20:08
+3D=Y

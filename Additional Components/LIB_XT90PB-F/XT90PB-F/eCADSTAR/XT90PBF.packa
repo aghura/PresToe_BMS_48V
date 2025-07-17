@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XT90PB-F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-15-09:08:49)
+    (mountForm default
+        (footprintRef "XT90PBF")
+        (spec "System")
+    )
+)
