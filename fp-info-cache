@@ -1,4 +1,4 @@
-24796999193662806
+24804074381480614
 20k_potentiometer
 POT_T93YA_VIS
 
@@ -20,6 +20,13 @@ CON_353620450
 0
 4
 4
+AS431ANTR
+SOT-23_DIO
+
+AS431ANTR-G1 
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89956,6 +89963,13 @@ SPST SPDT DC TE0598-P2
 0
 7
 7
+Resistor_SMD
+Custom_R_300u
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
