@@ -3313,6 +3313,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TLV9051IDBVR:TLV9051IDBVR"
 			(pin_names
 				(offset 0.254)
@@ -4879,6 +4962,18 @@
 		(uuid 1d243787-2711-4b68-84a9-18aea1ed3121)
 	)
 	(rectangle
+		(start 228.6 115.57)
+		(end 273.05 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2435bc3b-4126-49ce-95eb-bdb202a73543)
+	)
+	(rectangle
 		(start 15.24 80.01)
 		(end 175.26 194.31)
 		(stroke
@@ -4931,6 +5026,16 @@
 			)
 		)
 		(uuid "52d23390-5d1d-4e57-9467-40a3842bdc9c")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 238.252 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6423db92-3cf1-4558-b503-7de73c5206e7")
 	)
 	(text "*analog traces should be away from digitial and clock traces"
 		(exclude_from_sim no)
@@ -5151,6 +5256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9420fb56-427c-4a85-a3ec-d6e83bc648b2")
+	)
+	(junction
+		(at 34.29 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8ff8fd7-47c5-4fda-ae3b-4d442e7bc36d")
 	)
 	(junction
 		(at 39.37 33.02)
@@ -5666,7 +5777,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 170.18) (xy 38.1 170.18)
+			(xy 17.78 170.18) (xy 34.29 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5866,6 +5977,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 157.48) (xy 34.29 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48589fbd-82da-41e5-a7bb-8105d035d974")
+	)
+	(wire
+		(pts
 			(xy 35.56 109.22) (xy 35.56 119.38)
 		)
 		(stroke
@@ -5953,6 +6074,16 @@
 			(type default)
 		)
 		(uuid "5397e245-e0e9-409b-a1a9-dd0fb7005505")
+	)
+	(wire
+		(pts
+			(xy 34.29 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547f7347-6270-4b48-a8e2-94ad47108df8")
 	)
 	(wire
 		(pts
@@ -6566,6 +6697,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 175.26) (xy 93.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0d08d1-798d-4e62-870b-3b0814763a56")
+	)
+	(wire
+		(pts
 			(xy 57.15 71.12) (xy 57.15 64.77)
 		)
 		(stroke
@@ -7016,7 +7157,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 175.26) (xy 85.09 175.26)
+			(xy 78.74 175.26) (xy 93.98 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7383,6 +7524,16 @@
 			(type default)
 		)
 		(uuid "fd5dd7e2-818b-4fe9-a326-3dc594d764ef")
+	)
+	(wire
+		(pts
+			(xy 93.98 157.48) (xy 34.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff339daf-25e7-46ff-9e43-ea18f17a38ff")
 	)
 	(wire
 		(pts
@@ -8252,28 +8403,6 @@
 			)
 		)
 	)
-	(global_label "V_ADC"
-		(shape input)
-		(at 85.09 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a79fc6b0-922a-42ba-bab9-b26b4c0a8afe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_MOSI"
 		(shape input)
 		(at 162.56 147.32 0)
@@ -8579,6 +8708,70 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059f0c15-8b26-4d06-9ecf-4b8a04fc977b")
+		(property "Reference" "H2"
+			(at 256.54 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 254 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PresToe_BMS_48V"
+				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
+					(reference "H2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9924,6 +10117,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 233.68 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4921539e-87ae-4397-aaeb-6d44adf96c15")
+		(property "Reference" "H1"
+			(at 236.22 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 236.22 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 33.02 33.02 90)
 		(unit 1)
@@ -10692,6 +10949,70 @@
 			(project "PresToe"
 				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
 					(reference "R_FBT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 133.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d4e2dd-3512-4b76-a833-6de8c98e7b20")
+		(property "Reference" "H4"
+			(at 256.54 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 254 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PresToe_BMS_48V"
+				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11597,6 +11918,70 @@
 			(project "PresToe"
 				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 233.68 133.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1df9763-a93d-4e74-b64a-2ab0cc4212e9")
+		(property "Reference" "H3"
+			(at 236.22 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 236.22 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PresToe_BMS_48V"
+				(path "/d55feaca-1c96-43de-af88-3c824afcca87"
+					(reference "H3")
 					(unit 1)
 				)
 			)
