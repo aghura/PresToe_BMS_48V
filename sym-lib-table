@@ -19,4 +19,5 @@
   (lib (name "MCP3202")(type "KiCad")(uri "${KIPRJMOD}/Additional Components/MCP3202/2025-07-16_20-02-42.kicad_sym")(options "")(descr ""))
   (lib (name "MMTL431A")(type "KiCad")(uri "${KIPRJMOD}/Additional Components/MMTL431/diode-nc_pin.kicad_sym")(options "")(descr ""))
   (lib (name "AS431ANTR")(type "KiCad")(uri "${KIPRJMOD}/Additional Components/AS431ANTR/2025-07-17_05-49-49.kicad_sym")(options "")(descr ""))
+  (lib (name "89PR20KLF")(type "KiCad")(uri "${KIPRJMOD}/Additional Components/89PR20KLF/2025-07-23_03-30-12.kicad_sym")(options "")(descr ""))
 )
